@@ -4,7 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();
 
 import Tables from '../../pages/Tables/Tables';
-import TableUpdate from '../../pages/Tables/TableUpdate';
+import TableDetail from '../../pages/Tables/TableDetail';
 
 export default function TableStack() {
   return (
@@ -18,19 +18,19 @@ export default function TableStack() {
             fontWeight: '300',
           },
           headerBackTitleVisible: false,
-          headerTitle: 'Menu',
+          headerTitle: 'Tables',
         }}
       />
       <Stack.Screen
-        name="TableUpdatePage"
-        component={TableUpdate}
+        name="TableDetailPage"
+        component={TableDetail}
         options={{
           headerTintColor: 'black',
           headerTitleStyle: {
             fontWeight: '300',
           },
           headerBackTitleVisible: false,
-          headerTitle: 'Menu',
+          headerTitle: 'Table Detail',
         }}
       />
     </Stack.Navigator>

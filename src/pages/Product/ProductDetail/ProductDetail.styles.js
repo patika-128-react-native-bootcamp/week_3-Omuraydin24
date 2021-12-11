@@ -9,8 +9,8 @@ export default StyleSheet.create({
     backgroundColor: '#e0e0e0',
   },
   name_label: {
-    fontWeight: '200',
-    fontSize: 25,
+    fontWeight: '500',
+    fontSize: 30,
   },
   name_container: {
     flexDirection: 'row',
@@ -21,6 +21,7 @@ export default StyleSheet.create({
   description: {
     margin: 5,
     fontSize: 12,
+    textAlign: 'justify',
   },
   description_container: {
     flex: 1,
@@ -42,4 +43,8 @@ export default StyleSheet.create({
     color: '#e0e0e0',
     fontWeight: 'bold',
   },
+  text_container: {
+    paddingLeft: 7,
+    paddingRight: 7 
+  }
 });

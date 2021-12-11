@@ -7,6 +7,8 @@ import TableStack from './TableStack';
 import ProductsStack from './ProductsStack';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
+
+
 const Drawer = createDrawerNavigator();
 
 export default function Navigation() {
